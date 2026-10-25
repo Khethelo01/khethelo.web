@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal portfolio of a junior Python, AI and software developer. Explore skills, projects and learning.">
+  <meta name="theme-color" content="#0b1120">
+  <title>Khethelo Ntsele | Python & AI Developer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="header">
+    <nav class="container nav" aria-label="Main navigation">
+      <a href="#home" class="brand" aria-label="Home"><span class="brand-mark">&lt;/&gt;</span> <span data-name>Khethelo Ntsele</span><span class="brand-dot">.</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#learning">Learning</a><a class="nav-contact" href="#contact">Let’s connect</a></div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">PYTHON · AI · SOFTWARE DEVELOPMENT</p>
+        <h1>Hi, I’m <span data-name>Khethelo Ntsele</span>.<br>I turn curiosity<br>into <em>working code.</em></h1>
+        <p class="hero-description">Junior Python & AI Developer</p>
+        <p class="hero-detail">Python-focused software and AI development, with practical projects shaped around real problems and the people who use them.</p>
+        <div class="actions"><a class="button primary" href="#projects">Explore my work</a><a class="button secondary" id="cv-link" href="assets/Khethelo_Ntsele_CV.pdf" download="Khethelo_Ntsele_CV.pdf">Download CV</a></div>
+        <p class="cv-note" id="cv-note">PDF · 104 KB</p>
+        <div class="socials"><a data-social="github" href="https://github.com/Khethelo01" target="_blank" rel="noopener noreferrer">GitHub <span class="sr-only">(opens a new tab)</span></a><span>/</span><button type="button" class="social-unavailable" data-linkedin-unavailable>LinkedIn</button></div>
+      </div>
+      <div class="code-panel" aria-label="Developer introduction">
+        <div class="window-bar"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>hello_world.py</span><span class="file-type">PY</span></div>
+        <div class="code-body"><span class="code-comment"># Small steps. Real progress.</span><pre><code><span class="purple">class</span> <span class="blue">Developer</span>:
+    <span class="purple">def</span> <span class="blue">__init__</span>(self):
+        self.name = <span class="green" id="code-name">"Khethelo Ntsele"</span>
+        self.focus = [
+            <span class="green">"Python"</span>,
+            <span class="green">"Artificial Intelligence"</span>,
+            <span class="green">"Software Development"</span>
+        ]
+
+    <span class="purple">def</span> <span class="blue">grow</span>(self):
+        <span class="purple">return</span> <span class="green">"learn → build → improve"</span></code></pre></div>
+        <div class="terminal"><span>❯</span> python hello_world.py<br><strong>Ready to build something meaningful.</strong><span class="cursor" aria-hidden="true"></span></div>
+        <div class="panel-caption"><span>01 / THE DEVELOPER</span><span>Always learning.</span></div>
+      </div>
+    </section>
+    <section class="section container about" id="about">
+      <div><p class="eyebrow">01 / ABOUT ME</p><h2>A curious mind.<br>A builder’s mindset.</h2><img class="profile-photo" src="assets/profile.png" alt="Khethelo Ntsele outdoors wearing a blue jacket" width="1196" height="953" loading="lazy"></div>
+      <div class="about-content"><p class="lead">I’m a junior developer interested in the space where Python, software, and artificial intelligence meet.</p><p>I enjoy breaking a problem into manageable pieces, exploring possible solutions, and turning what I learn into useful tools. My focus is on readable code, thoughtful design, and understanding how things work.</p><p>I’m developing my skills through hands-on practice and looking for opportunities to contribute, learn from others, and build software that helps people.</p><div class="principles"><span>Keep it readable</span><span>Build with purpose</span><span>Stay curious</span></div></div>
+    </section>
+    <section class="section container" id="skills">
+      <div class="section-heading"><div><p class="eyebrow">02 / MY TOOLKIT</p><h2>Skills I’m developing.</h2></div><p>A foundation to build on.<br>Room to keep growing.</p></div>
+      <div class="skills-grid"><article class="skill-card"><span class="card-number">01</span><h3>Python & problem solving</h3><p>Writing clear scripts, working with data, and translating problems into logical steps.</p><div class="tags"><span>Python</span><span>OOP</span><span>Debugging</span></div></article><article class="skill-card"><span class="card-number">02</span><h3>AI & data foundations</h3><p>Exploring data preparation, machine learning concepts, and practical AI applications.</p><div class="tags"><span>Pandas</span><span>NumPy</span><span>Machine learning</span></div></article><article class="skill-card"><span class="card-number">03</span><h3>Software & the web</h3><p>Building responsive interfaces and learning workflows that make development easier.</p><div class="tags"><span>HTML & CSS</span><span>JavaScript</span><span>Git & GitHub</span></div></article></div>
+    </section>
+    <section class="section container" id="projects">
+      <div class="section-heading"><div><p class="eyebrow">03 / PROJECTS</p><h2>Putting learning into practice.</h2></div><p>From an idea<br>to a working solution.</p></div>
+      <div class="project-list">
+        <article class="project-card" aria-labelledby="project-title-insync"><div class="project-visual visual-python" aria-hidden="true"><span class="visual-label">BUSINESS NETWORKING</span><span class="visual-title">Discover businesses.<br>Build connections.</span><span class="visual-code">Discovery · Connections · Opportunities</span></div><div class="project-content"><span class="project-status">IN PROGRESS</span><h3 id="project-title-insync">InSync</h3><p>A business-networking platform I’m currently developing to bring business discovery, connections, opportunities, and business-health insights into one dashboard. The aim is to help businesses explore useful relationships and review their activity in a shared workspace.</p><p><strong>Project focus:</strong> Making it easier for businesses to find relevant connections and opportunities, with business-health assessments based on validated evidence.</p><div class="tags"><span>HTML</span><span>JavaScript</span><span>HTMX</span><span>Tailwind CSS</span></div><div class="actions"><a class="button primary" href="https://insync.website/" target="_blank" rel="noopener noreferrer">View InSync<span class="sr-only"> — InSync (opens a new tab)</span></a></div></div></article>
+      </div>
+    </section>
+    <section class="section container learning" id="learning"><div><p class="eyebrow">04 / EDUCATION & LEARNING</p><h2>Progress is<br>part of the process.</h2><p>Building a strong foundation through consistent practice and hands-on learning.</p></div><div class="timeline"><article><span class="timeline-label">CURRENT FOCUS</span><h3>Python & software fundamentals</h3><p>Strengthening problem solving, object-oriented programming, testing, and version control.</p></article><article><span class="timeline-label">EXPLORING</span><h3>AI & machine learning</h3><p>Learning how data, algorithms, and evaluation come together to create useful applications.</p></article><article><span class="timeline-label">CURRENTLY STUDYING</span><h3>AI &amp; Software Engineering</h3><p><strong>HyperionDev, in partnership with Stellenbosch University</strong><br>I am currently completing a programme focused on practical skills in Python, software development, artificial intelligence, problem solving, and building real-world software projects.</p></article></div></section>
+    <section class="contact section container" id="contact"><p class="eyebrow">05 / CONTACT</p><h2>Let’s build<br><em>something worthwhile.</em></h2><p>Have a junior developer opportunity, a project idea, or a question?<br>I’d love to hear from you.</p><a class="button primary" id="email-link" href="mailto:Kntsele75@gmail.com">Say hello</a><p class="contact-email" id="email-display">Kntsele75@gmail.com</p><div class="socials"><a data-social="github" href="https://github.com/Khethelo01" target="_blank" rel="noopener noreferrer">GitHub</a><span>/</span><button type="button" class="social-unavailable" data-linkedin-unavailable>LinkedIn</button></div></section>
+  </main>
+  <footer class="container footer"><p>© <span id="year">2026</span> <span data-name>Khethelo Ntsele</span></p><p>Built with curiosity, HTML, CSS & JavaScript.</p><a href="#home">Back to top</a></footer>
+</body>
+</html>
+
